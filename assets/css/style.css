@@ -1,0 +1,67 @@
+body {
+	background-image: url(../images/cloudy-day.png);
+}
+
+.container {
+	margin-top: 5px;
+}
+
+.row {
+	margin-left: -14px;
+}
+
+#heading {
+	background-color: orange;
+	color: white;
+	font-size: 175%;
+	font-weight: bolder;
+	height: 100px;
+	padding-top: 35px;
+	text-align: center;
+	width: 250px;
+}
+
+#intro {
+	background-color: #fbe7cc;
+	color: green;
+	font-weight: bold;
+	width: 400px;
+	height: 400px;
+	padding: 20px 5px 5px 5px;
+}
+
+#guessNumBox {
+	background-color: green;
+	height: 100px;
+	font-size: 175%;
+}
+
+#counterBox {
+	background-color: turquoise;
+	height: 100px;
+}
+
+#board {
+	height: 100px;
+}
+
+.crystalImg {
+	height: 75px;
+	width: 75px;
+}
+
+#totalScoreTxt {
+	background-color: #2ca296;
+	margin-top: 5px;
+	color:white;
+	width: 200px;
+}
+
+#totalScoreBox {
+	background-color: #2ca296;
+	color: white;
+	font-size: 150%;
+	margin-top: 10px;
+	height: 100px;
+	width: 200px;
+}
