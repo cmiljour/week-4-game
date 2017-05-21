@@ -9,12 +9,12 @@
 	<script src="./assets/javascript/game.js" type="text/javascript"></script>
 </head>
 <body>
-	<div class="container">
+	<div class="container-fluid">
 		<div id="heading">
 			<p>CrystalsCollector!</p>
 		</div>
 	</div>
-	<div class="container">
+	<div class="container-fluid">
 		<div id="intro">
 			<p>You will be given a random number at the start of the game.</p>
 			<p>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.</p>
@@ -23,7 +23,7 @@
 			<p>Each time when the game starts, the game will change the values of each crystal.</p>
 		</div>
 	</div>
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
 			<div class="col-sm-3 col-md-3 col-lg-2">
 				<div id="guessNumBox">
@@ -32,35 +32,24 @@
 			</div>
 			<div class="col-sm-2 col-md-3 col-lg-1">
 				<div id="counterBox">
-					<p><span id="winText"></span></p>
+					<br>
+					<p id="winText"></p>
 					<p>Wins: <span id="wins"></span></p>
 					<p>Losses: <span id="losses"></span></p>
 				</div>
 			</div>
 		</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-2 col-md-1 col-lg-1">
-				<div>
-					<img id="crystal1" class="crystalImg" value="0" alt="crystal1" src="assets/images/crystal1.jpg">
-				</div>
-			</div>
-			<div class="col-sm-2 col-md-1 col-lg-1">
-				<div>
-					<img id="crystal2" class="crystalImg" value="0" alt="crystal2" src="assets/images/crystal2.jpg">
-				</div>
-			</div>
-			<div class="col-sm-2 col-md-1 col-lg-1">
-				<div>
-					<img id="crystal3" class="crystalImg" value="0" alt="crystal3" src="assets/images/crystal3.jpg">
-				</div>
-			</div>
-			<div class="col-sm-2 col-md-1 col-lg-1">
-				<div>
-					<img id="crystal4" class="crystalImg" value="0" alt="crystal2" src="assets/images/crystal2.jpg">
-				</div>
-			</div>
-		</div>
+	
+	<div>
+		<img id="crystal1" class="crystalImg" value="0" alt="crystal1" src="assets/images/crystal1.jpg">
+	</div>
+	<div>
+		<img id="crystal2" class="crystalImg" value="0" alt="crystal2" src="assets/images/crystal2.jpg">
+	</div>
+	<div>
+		<img id="crystal3" class="crystalImg" value="0" alt="crystal3" src="assets/images/crystal3.jpg">
+	</div>
+		<img id="crystal4" class="crystalImg" value="0" alt="crystal4" src="assets/images/crystal2.jpg">
 	</div>
 	<div id="totalScoreTxt">
 		Your total score is:

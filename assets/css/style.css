@@ -2,21 +2,18 @@ body {
 	background-image: url(../images/cloudy-day.png);
 }
 
-.container {
-	margin-top: 5px;
+.container-fluid {
+	margin-top: 10px;
 }
 
-.row {
-	margin-left: -14px;
-}
 
 #heading {
 	background-color: orange;
 	color: white;
 	font-size: 175%;
 	font-weight: bolder;
-	height: 100px;
-	padding-top: 35px;
+	height: 80px;
+	padding-top: 25px;
 	text-align: center;
 	width: 250px;
 }
@@ -34,11 +31,15 @@ body {
 	background-color: green;
 	height: 100px;
 	font-size: 175%;
+	padding-left:5px;
 }
 
 #counterBox {
+
 	background-color: turquoise;
 	height: 100px;
+	width: 100px;
+	text-align: center;
 }
 
 #board {
@@ -48,11 +49,17 @@ body {
 .crystalImg {
 	height: 75px;
 	width: 75px;
+	float:left;
+	margin-top: 10px;
+	margin-right: 5px;
 }
 
 #totalScoreTxt {
 	background-color: #2ca296;
+	clear:both;
+	margin-left: 15px;
 	margin-top: 5px;
+	padding-left: 5px;
 	color:white;
 	width: 200px;
 }
@@ -61,7 +68,10 @@ body {
 	background-color: #2ca296;
 	color: white;
 	font-size: 150%;
+	margin-left: 15px;
 	margin-top: 10px;
+	padding-left: 5px;
 	height: 100px;
 	width: 200px;
 }
+

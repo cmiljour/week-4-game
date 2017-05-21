@@ -30,6 +30,7 @@ $(document).ready(function() {
 		$("#wins").text(wins);
 		$("#losses").text(losses);
 		$("#totalScore").text(result);
+		
 	}
 
 	initValues();
