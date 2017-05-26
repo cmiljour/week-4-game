@@ -54,9 +54,6 @@ $(document).ready(function() {
 			initValues();
 		}
 
-
-
-
 	});
 
 });
